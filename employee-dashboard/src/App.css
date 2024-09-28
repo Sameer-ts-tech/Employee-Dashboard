@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/5109267.jpg'); /* Adjust path as necessary */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  margin: 0;
+  padding: 20px;
+  color: white; /* Change text color for better contrast */
+}
+
+h1 {
+  text-align: center;
+  color: #fff; /* Change to white for better visibility */
+}
+
+.employee-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+}
+
+.employee-card h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.employee-card p {
+  color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 5px 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.edit-employee {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.edit-employee form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-employee label {
+  margin-top: 10px;
+}
+
+.edit-employee input,
+.edit-employee textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-employee button {
+  margin-top: 15px;
+  background-color: #28a745; /* Green for Save */
+}
+
+.edit-employee button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
