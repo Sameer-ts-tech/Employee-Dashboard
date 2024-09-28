@@ -22,7 +22,7 @@ const EmployeeList = () => {
 
     const handleDelete = async (id) => {
         await axios.delete(`http://localhost:5000/employees/${id}`);
-        setRefresh(!refresh); // Refresh the employee list
+        setRefresh(!refresh); 
     };
 
     const handleRefresh = () => {

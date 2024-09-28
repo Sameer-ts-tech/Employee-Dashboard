@@ -1,16 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('./assets/5109267.jpg'); /* Adjust path as necessary */
-  background-size: cover; /* Cover the entire background */
-  background-position: center; /* Center the background image */
+  background-image: url('./assets/5109267.jpg'); 
+  background-size: cover; 
+  background-position: center; 
   margin: 0;
   padding: 20px;
-  color: white; /* Change text color for better contrast */
+  color: white; 
 }
 
 h1 {
   text-align: center;
-  color: #fff; /* Change to white for better visibility */
+  color: #fff; 
 }
 
 .employee-card {
@@ -57,7 +57,7 @@ button:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: rgb(62, 97, 179);
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -84,9 +84,9 @@ button:hover {
 
 .edit-employee button {
   margin-top: 15px;
-  background-color: #28a745; /* Green for Save */
+  background-color: #28a745; 
 }
 
 .edit-employee button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #218838;
 }
